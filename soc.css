@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 231, 180)
+}
+h4{
+    text-align: right;
+    /*padding-left: 85%;*/
+}
+.logo{
+    text-align: center;
+    /*padding-left: 47%;*/
+}
+.name_1{
+    text-align: center;
+    /*padding-left: 44%;*/
+    padding-top: 20px;
+    font-size: 30px;
+    color: indianred;
+}
+.name_2{
+    text-align: center;
+    /*padding-left: 36%;*/
+    color: indianred;
+}
+.number{
+    text-align: center;
+    /*padding-left: 40%;*/
+    padding-top: 10px;
+    color: indianred;
+}
+.telo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding-top: 20px;
+    /*padding-left: 25%;*/
+
+}
+.telo > img{
+    border: 3px solid cornflowerblue;
+    border-radius: 3px;
+}
+.telo > p{
+    font-size: large;
+    max-width: 500px;
+    color:indianred;
+    margin: 20px;
+
+}
+.name_sxem{
+    text-align: center;
+    padding-top: 30px;
+    /*padding-left: 35%;*/
+    color: indianred;
+}
+.flex_sxem{
+    padding: 40px;
+    font-size: large;
+    color:indianred;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:stretch;
+    /*text-align: center;*/
+    -ms-flex-item-align: auto;
+}
+summary:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.name_baza{
+    padding-top: 30px;
+    text-align: center;
+    /*padding-left: 38%;*/
+    color: indianred;
+}
+.baza{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    /*padding-left: 25%;*/
+}
+.baza > img{
+    border: 3px solid cornflowerblue;
+    border-radius: 3px;
+}
+.baza > p{
+    font-size: large;
+    max-width: 500px;
+    color:indianred;
+    margin: 20px;
+
+}
+.number_2{
+    font-size: larger;
+    text-align: center;
+    /*padding-left: 40%;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: indianred;
+}
+.Contacts{
+    padding-left: 40px;
+    color: cornflowerblue;
+}
+.Contacts > h3{
+    color: black;
+}
+.Contacts > h5:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+@media(max-width: 1200px){
+    .telo > img{
+        height: 350px;
+    }
+    .baza > img{
+        height: 350px;
+    }
+
+
+}
+@media(max-width: 992px){
+    .telo > img{
+        height: 350px;
+    }
+    .baza > img{
+        height: 350px;
+    }
+
+
+
+}
+@media(max-width: 768px){
+    .telo > img{
+        height: 250px;
+    }
+    .baza > img{
+        height: 250px;
+    }
+
+
+
+}
+@media(max-width: 480px){
+    .telo > img{
+        height: 200px;
+    }
+    .baza > img{
+        height: 165px;
+    }
+
+
+
+}
+@media(max-width: 320px){
+    .telo > img{
+        height: 200px;
+    }
+    .baza > img{
+        height: 150px;
+    }
+
+
+
+}
